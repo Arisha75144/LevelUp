@@ -7,6 +7,7 @@ int main () {
     int b,d;
     scanf("&d",&b);
     scanf("&d",&d);
+    scanf("&d",&a);
 
     a += b - 2;
     c++;
