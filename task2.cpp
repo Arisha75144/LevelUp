@@ -2,12 +2,17 @@
 // Created by Arina on 15.08.2022.
 //
 #include <stdio.h>
+
+
 int main () {
-    int  a ,c=5;
-    int b,d;
-    scanf("&d",&b);
-    scanf("&d",&d);
-    scanf("&d",&a);
+    //FIXME: a : Is not initialized!
+    int c = 5;
+    int a=5;
+    int b, d;
+
+    //FIXME: scanf("%d", &b); Use %d instead of &d. %d - Format specifier for integer.
+    scanf ("%d", &b);
+    scanf ("%d", &d);
 
     a += b - 2;
     c++;
