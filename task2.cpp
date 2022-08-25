@@ -6,12 +6,13 @@
 
 int main () {
     //FIXME: a : Is not initialized!
-    int a, c = 5;
+    int c = 5;
+    int a=5;
     int b, d;
 
     //FIXME: scanf("%d", &b); Use %d instead of &d. %d - Format specifier for integer.
-    scanf ("&d", &b);
-    scanf ("&d", &d);
+    scanf ("%d", &b);
+    scanf ("%d", &d);
 
     a += b - 2;
     c++;
