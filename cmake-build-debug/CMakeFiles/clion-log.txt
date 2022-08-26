@@ -1,4 +1,0 @@
-/private/var/folders/46/6nbmmgz55fdfmfgy0nr7zxgc0000gn/T/AppTranslocation/188D59BE-3B28-4BDE-A12B-9F7414DEF486/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/private/var/folders/46/6nbmmgz55fdfmfgy0nr7zxgc0000gn/T/AppTranslocation/188D59BE-3B28-4BDE-A12B-9F7414DEF486/d/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/morozovaarina/CLionProjects/LevelUp -B /Users/morozovaarina/CLionProjects/LevelUp/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/morozovaarina/CLionProjects/LevelUp/cmake-build-debug
