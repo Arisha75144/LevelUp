@@ -1,3 +1,0 @@
-/Users/dmitrymorozov/CLionProjects/Puzzles/LevelUp/cmake-build-debug/CMakeFiles/LevelUp.dir
-/Users/dmitrymorozov/CLionProjects/Puzzles/LevelUp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dmitrymorozov/CLionProjects/Puzzles/LevelUp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
