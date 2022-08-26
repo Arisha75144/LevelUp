@@ -20,16 +20,13 @@ double equalTriangle (double high) {
 
 }
 
-double maxTwo (double a, double b) {
-    return a > b ? a : b;
-}
 
 int main () {
     double square, triangle, circle;
     scanf ("%lf %lf %lf", &circle, &triangle, &square);
     //TODO: Print out figure name instead od area value
-    double BiggestArea = (maxTwo (maxTwo (getSquareArea (square), getCircleArea (circle)), equalTriangle (triangle)));
-    printf ("%f", &BiggestArea);
+    getCircleArea(circle)> getSquareArea(square) && getCircleArea(circle) > equalTriangle(triangle)?printf("area of circle is biggest : %lf", getCircleArea(circle)):
+    getSquareArea(square)>equalTriangle(triangle)?printf("area of square is biggest : %lf",getSquareArea(square)):printf("area of triangle is biggest: %lf",equalTriangle(triangle));
     //FIXME: Pass by value not by reference
 
 }
