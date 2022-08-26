@@ -46,8 +46,8 @@ cmake_ninja_workdir = /Users/dmitrymorozov/CLionProjects/Puzzles/LevelUp/cmake-b
 
 build cmake_object_order_depends_target_LevelUp: phony || CMakeFiles/LevelUp.dir
 
-build CMakeFiles/LevelUp.dir/task3.cpp.o: CXX_COMPILER__LevelUp_Debug /Users/dmitrymorozov/CLionProjects/Puzzles/LevelUp/task3.cpp || cmake_object_order_depends_target_LevelUp
-  DEP_FILE = CMakeFiles/LevelUp.dir/task3.cpp.o.d
+build CMakeFiles/LevelUp.dir/task4.cpp.o: CXX_COMPILER__LevelUp_Debug /Users/dmitrymorozov/CLionProjects/Puzzles/LevelUp/task4.cpp || cmake_object_order_depends_target_LevelUp
+  DEP_FILE = CMakeFiles/LevelUp.dir/task4.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/LevelUp.dir
   OBJECT_FILE_DIR = CMakeFiles/LevelUp.dir
@@ -60,7 +60,7 @@ build CMakeFiles/LevelUp.dir/task3.cpp.o: CXX_COMPILER__LevelUp_Debug /Users/dmi
 #############################################
 # Link the executable LevelUp
 
-build LevelUp: CXX_EXECUTABLE_LINKER__LevelUp_Debug CMakeFiles/LevelUp.dir/task3.cpp.o
+build LevelUp: CXX_EXECUTABLE_LINKER__LevelUp_Debug CMakeFiles/LevelUp.dir/task4.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/LevelUp.dir
   POST_BUILD = :
