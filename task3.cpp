@@ -1,7 +1,7 @@
 //
 // Created by Морозова Арина on 25.08.2022.
 //
-#include <stdio.h> // Replace with <cstdio>
+#include <cstdio>
 #include <cmath>
 
 
