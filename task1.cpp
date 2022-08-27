@@ -1,7 +1,7 @@
 //
 // Created by Arina on 15.08.2022.
 //
-#include <stdio.h>
+#include <cstdio>
 int main(void){
     int a, b = 5, c;
     float x, y = (float) -.5, z;

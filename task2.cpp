@@ -7,7 +7,7 @@
 int main () {
     //FIXME: a : Is not initialized!
     int c = 5;
-    int a=5;
+    int a = 5;
     int b, d;
 
     //FIXME: scanf("%d", &b); Use %d instead of &d. %d - Format specifier for integer.
