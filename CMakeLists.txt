@@ -5,9 +5,13 @@ project(LevelUp)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(LevelUp
-        # task1.cpp
-        # task2.cpp
-        # task3.cpp
-        task4.cpp
-        )
+     #   HomeWork_1/task1.cpp
+     #   HomeWork_1/task2.cpp
+     #   HomeWork_2/task3.cpp
+      #  HomeWork_2/task4.cpp
+       # HomeWork_3/task1.cpp
+        #HomeWork_3/task2.cpp
+        #HomeWork_3/task3.cpp
+       #HomeWork_3/task4.cpp
+        HomeWork_3/task5.cpp)
 
