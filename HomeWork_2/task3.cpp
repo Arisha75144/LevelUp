@@ -14,4 +14,5 @@ int main () {
     y = (up / under) * exp (3 * x);
     printf ("%lf", y);
 
+
 }

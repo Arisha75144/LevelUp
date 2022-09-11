@@ -5,6 +5,7 @@
 #include<iostream>
 #include<vector>
 #include <cmath>
+
 int main(){
     double e = 1e-6;
     double x, s, p, t;

@@ -1,13 +1,20 @@
 //
 // Created by Морозова Арина on 01.09.2022.
 //
+// Swap firs and last digits in number
 #include <iostream>
-int main(){
-    std::string a;
-    std::cin>>a;
-    std::cout<<a[a.size()-1];
-    for(int i=1;i<a.size()-1;i++){
-        std::cout<<a[i];
-    }
-    std::cout<<a[0];
+#include <string>
+
+
+int main () {
+    int a;
+    std::cout << "Enter the number: ";
+    std::cin >> a;
+    auto str_number = std::to_string (a);
+    std::swap (str_number[0], str_number[str_number.length () - 1]);
+
+    a = stoi (str_number);
+    std::cout << a << std::endl;
+
+    return 0;
 }

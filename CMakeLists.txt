@@ -13,5 +13,11 @@ add_executable(LevelUp
         #HomeWork_3/task2.cpp
         #HomeWork_3/task3.cpp
        #HomeWork_3/task4.cpp
-        HomeWork_3/task5.cpp)
+  #      HomeWork_3/task5.cpp
+ #       HomeWork_4/task_1.cpp
+  #      HomeWork_4/task2.cpp
+   #     HomeWork_4/task3.cpp
+    #    HomeWork_4/task4.cpp
+   #     HomeWork_4/task5.cpp
+        HomeWork_4/task6.cpp)
 
