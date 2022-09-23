@@ -6,12 +6,7 @@
 #include <algorithm>
 #include <stdio.h>
 
-
-int main () {
-    int a, b, c;
-
-    printf ("Enter the numbers: ");
-    scanf ("%d %d %d", &a, &b, &c);
+int  minimal_divisor(int a,int b,int c){
 
     int result = 1;
     int min_number = std::min (a, std::min (b, c));
@@ -22,7 +17,5 @@ int main () {
         }
     }
 
-    printf ("Minimal divisor : %d", result);
-
-    return 0;
+   return result;
 }

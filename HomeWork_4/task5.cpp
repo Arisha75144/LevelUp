@@ -3,7 +3,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-int main(){
+void Del_str(){
     string str;
     string strcopy;
     getline(cin,str);

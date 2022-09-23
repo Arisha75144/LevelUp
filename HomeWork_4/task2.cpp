@@ -3,10 +3,8 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-int main ()
-{
-    vector < int >A (30);
-    vector < int >B (15);
+vector < pair < int, int >> PosElem(  vector < int >A ,vector < int >B){
+
     vector < pair < int, int >>elements;
     for (int i = 0; i < A.size (); i++)
     {
@@ -25,8 +23,5 @@ int main ()
 
         }
     }
-    for (int i = 0; i < elements.size (); i++)
-    {
-        cout << "element: " << elements[i].first << " on position: " << elements[i].second + 1 << endl;
-    }
+    return elements;
 }

@@ -1,12 +1,12 @@
 //
-// Created by Arina on 15.08.2022.
+// Created by Морозова Арина on 23.09.2022.
 //
 #include <stdio.h>
-int main(void){
-    int a, b = 5, c;
+#include "task1.hpp"
+void calc(int a){
+    int b = 5, c;
     float x, y = (float) -.5, z;
     printf ("a = ");
-    scanf ("%d", &a);
     x = (float) (c = a);
     printf ("a = %d, c = %d, x = %f\n", a, c, x);
     a += b;
@@ -34,5 +34,6 @@ int main(void){
     printf (" y = %f\n", y);
     z = (float) ((float) (a % 2) - (x + (float) b) / (float) c + (x - y) / (float) (a - 1) + (float) 1 / 4 * (float) a -y++ + ++b / 3.);
     printf (" a = %d, b = %d, c = %d, x = %f, y = %f, z = %f\n", a, b, c, x, y, z);
-    return 0;
 }
+
+

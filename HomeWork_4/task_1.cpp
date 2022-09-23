@@ -3,14 +3,12 @@
 #include<set>
 #include<vector>
 using namespace std;
-int main(){
-    vector<int>A(5);
+vector<int> ChangeElem(vector<int>A){
     int maxitemp=0;
     int maxpos=0;
     int negnum=0;
     int posneg=0;
-    for (int i=0;i<A.size();i++){
-        cin>>A[i];
+    for (int i=0;i<5;i++){
         if(A[i]>maxitemp){
             maxitemp=A[i];
             maxpos=i;
@@ -22,7 +20,5 @@ int main(){
     }
     A[maxpos]=negnum;
     A[posneg]=maxitemp;
-    for(int i=0;i<A.size();i++){
-        cout<<A[i]<<" ";
-    }
+return A;
 }

@@ -5,16 +5,11 @@
 #include <iostream>
 #include <string>
 
-
-int main () {
-    int a;
-    std::cout << "Enter the number: ";
-    std::cin >> a;
+int Changer_of_elements(int a){
     auto str_number = std::to_string (a);
     std::swap (str_number[0], str_number[str_number.length () - 1]);
 
     a = stoi (str_number);
-    std::cout << a << std::endl;
+    return a;
 
-    return 0;
 }

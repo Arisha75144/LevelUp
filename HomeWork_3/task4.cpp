@@ -6,11 +6,8 @@
 
 #include<iostream>
 #include<cmath>
+int  Tobianary(int N){
 
-
-int main () {
-    int N;
-    std::cin >> N;
 
     unsigned result = 0;
     int i = 0;
@@ -21,7 +18,6 @@ int main () {
         N >>= 1;
     }
 
-    std::cout << result;
+    return result;
 
-    return 0;
 }

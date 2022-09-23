@@ -5,12 +5,10 @@
 #include<iostream>
 #include<vector>
 #include <cmath>
-
-int main(){
+int sumR(int x){
     double e = 1e-6;
-    double x, s, p, t;
+    double s, p, t;
     int n = 0;
-    scanf("%lf", &x);
     s = p = x;
     x *= x;
     do {
@@ -19,5 +17,5 @@ int main(){
         t = p / (n + 1);
         s += t;
     } while (fabs(t) >= e);
-    printf("%le", s);
+   return s;
 }
