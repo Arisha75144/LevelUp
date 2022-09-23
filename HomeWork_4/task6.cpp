@@ -24,5 +24,5 @@ bool brackets(const string& line) {
 int main() {
     string line;
     getline(cin, line);
-    cout<<(brackets(line) ? "YES" : "NO");
+    puts(brackets(line) ? "YES" : "NO");
 }
