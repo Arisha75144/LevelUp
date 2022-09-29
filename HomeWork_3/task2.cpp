@@ -3,19 +3,19 @@
 //
 
 //Find minimal divisor for 3 numbers
-#include <algorithm>
+
+#include "task2.hpp"
 #include <stdio.h>
 
-int  minimal_divisor(int a,int b,int c){
 
-    int result = 1;
-    int min_number = std::min (a, std::min (b, c));
+int main () {
+    int  a, b, c;
 
-    for (int i = min_number; i > 1; i--) {
-        if (a % i == 0 && b % i == 0 && c % i == 0) {
-            result = i;
-        }
-    }
+    printf ("Enter the numbers: ");
+    scanf ("%d %d %d", &a, &b, &c);
 
-   return result;
+
+    printf ("Minimal divisor : %d", mcd (a, b, c));
+
+    return 0;
 }
